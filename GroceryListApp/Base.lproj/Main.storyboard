@@ -13,16 +13,28 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GroceryListApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="eq8-CZ-gu3">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dwW-VZ-oSy"/>
+                        <viewControllerLayoutGuide type="bottom" id="98F-KZ-7uK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t4a-0h-Fba">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </imageView>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wrK-3J-BLo">
+                                <rect key="frame" x="-10" y="0.0" width="397" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                     <connections>
-                        <outlet property="StartScreenPhoto" destination="eq8-CZ-gu3" id="5VL-sW-OFD"/>
+                        <outlet property="WelcomeImage" destination="wrK-3J-BLo" id="1Vx-Ek-R5U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="54.422788605697157"/>
         </scene>
     </scenes>
 </document>

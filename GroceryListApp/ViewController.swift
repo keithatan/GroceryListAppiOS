@@ -9,11 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
+
+    @IBOutlet weak var WelcomeImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.StartScreenPhoto.image = UIImage(named: "grocery")
-        // Do any additional setup after loading the view, typically from a nib.
+        self.WelcomeImage.image = UIImage(named: "grocery")
+        
+        // This is the code for blurring the main background grocery image
+        // I can't seem to control the strength of the blur without the use of a private api
+        
+        let imageBlur = UIBlurEffect(style: UIBlurEffectStyle.regular)
+        let blurView = UIVisualEffectView(effect: imageBlur)
+        blurView.frame = WelcomeImage.bounds
+        WelcomeImage.addSubview(blurView)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,7 +33,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBOutlet var StartScreenPhoto: UIImageView!
+    
 
 }
 
