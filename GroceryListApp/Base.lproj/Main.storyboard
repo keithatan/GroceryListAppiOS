@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,23 +19,60 @@
                         <viewControllerLayoutGuide type="bottom" id="98F-KZ-7uK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="t4a-0h-Fba">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wrK-3J-BLo">
-                                <rect key="frame" x="-10" y="0.0" width="397" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grocery" translatesAutoresizingMaskIntoConstraints="NO" id="wrK-3J-BLo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="MDl-Et-leY">
+                                <rect key="frame" x="0.0" y="185" width="414" height="99"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="75"/>
+                                <color key="textColor" red="1" green="0.98568466415766853" blue="0.97108000445500009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2n-6G-Wk3" customClass="BButton">
+                                <rect key="frame" x="76" y="319" width="263" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qFa-rp-Mc9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Begin"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="type">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="MDl-Et-leY" secondAttribute="trailing" id="2wc-WD-tUo"/>
+                            <constraint firstItem="d2n-6G-Wk3" firstAttribute="leading" secondItem="t4a-0h-Fba" secondAttribute="leadingMargin" constant="56" id="6wj-ga-ohc"/>
+                            <constraint firstItem="d2n-6G-Wk3" firstAttribute="top" secondItem="MDl-Et-leY" secondAttribute="bottom" constant="35" id="GeV-wz-cyz"/>
+                            <constraint firstAttribute="trailing" secondItem="wrK-3J-BLo" secondAttribute="trailing" id="Jwr-UD-gRC"/>
+                            <constraint firstItem="wrK-3J-BLo" firstAttribute="leading" secondItem="t4a-0h-Fba" secondAttribute="leading" id="NDj-yu-Hro"/>
+                            <constraint firstItem="d2n-6G-Wk3" firstAttribute="top" secondItem="MDl-Et-leY" secondAttribute="bottom" constant="35" id="WTN-gw-g5e"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="d2n-6G-Wk3" secondAttribute="trailing" constant="55" id="azJ-AY-lQp"/>
+                            <constraint firstItem="MDl-Et-leY" firstAttribute="top" secondItem="dwW-VZ-oSy" secondAttribute="bottom" constant="165" id="c9v-Xw-3yi"/>
+                            <constraint firstItem="98F-KZ-7uK" firstAttribute="top" secondItem="wrK-3J-BLo" secondAttribute="bottom" id="iiO-GS-pfw"/>
+                            <constraint firstItem="MDl-Et-leY" firstAttribute="leading" secondItem="t4a-0h-Fba" secondAttribute="leading" id="qy6-zu-Adn"/>
+                            <constraint firstItem="wrK-3J-BLo" firstAttribute="top" secondItem="t4a-0h-Fba" secondAttribute="top" id="zCj-Nh-yPx"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="WelcomeImage" destination="wrK-3J-BLo" id="1Vx-Ek-R5U"/>
+                        <outlet property="welcomeLabel" destination="wrK-3J-BLo" id="DKn-I8-inl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.799999999999997" y="54.422788605697157"/>
+            <point key="canvasLocation" x="31.884057971014496" y="53.804347826086961"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="grocery" width="768" height="512"/>
+    </resources>
 </document>

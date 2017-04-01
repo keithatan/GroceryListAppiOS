@@ -12,18 +12,29 @@ class ViewController: UIViewController {
     
 
 
+    @IBOutlet weak var welcomeLabel: UIImageView!
     @IBOutlet weak var WelcomeImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.WelcomeImage.image = UIImage(named: "grocery")
+        //self.welcomeLabel.isHidden = true
         
-        // This is the code for blurring the main background grocery image
-        // I can't seem to control the strength of the blur without the use of a private api
+        // * Old code for my blurred background image below *
         
-        let imageBlur = UIBlurEffect(style: UIBlurEffectStyle.regular)
-        let blurView = UIVisualEffectView(effect: imageBlur)
-        blurView.frame = WelcomeImage.bounds
-        WelcomeImage.addSubview(blurView)
+        // let imageBlur = UIBlurEffect(style: UIBlurEffectStyle.regular)
+        // let blurView = UIVisualEffectView(effect: imageBlur)
+        // blurView.frame = WelcomeImage.bounds
+        // WelcomeImage.addSubview(blurView)
+        
+        // New effect now animates this process: starts out clear then blurs!
+        
+        let effectView = UIVisualEffectView()
+        effectView.frame = WelcomeImage.frame
+        WelcomeImage.addSubview(effectView)
+        
+        UIView.animate(withDuration: 3.0) {
+            effectView.effect = UIBlurEffect(style: UIBlurEffectStyle.dark)
+        }
         
         
     }

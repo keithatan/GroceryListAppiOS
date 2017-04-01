@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E92009BC396C8D35B0E8C4EF7C3809 /* BButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF584E572A771EEB4433336A1E1E5D1 /* BButton-dummy.m */; };
+		0CBA0E1FD4A3A0FEC309237AFB42FF3E /* NSString+FontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8FAD1F6B4529E15B70FB7574796292 /* NSString+FontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1417D97E48334961E2389345A04DC100 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C24CBEBAF9646B385170B083E620FDD /* FontAwesome.ttf */; };
+		2ED39714647F56C8CE3E82BB351DABF1 /* BButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFD5C695BCAF777D426F7E21F512946 /* BButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D95E10330F315A961F6DB906A3A9C9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */; };
+		4A1C5AAA4AEBB273B4B698D1AA24006E /* UIColor+BButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 34ABBF8AEFCB369BEDEA9C21E44D6792 /* UIColor+BButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8F5AB011EE9BC9CB64592AF7D642D2 /* Pods-GroceryListApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3BC20AE0630A0A8E24E7A317EFE6D /* Pods-GroceryListApp-dummy.m */; };
+		70C50A6F3327CE99B75A82FA489492DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		7E53179C4744653A4D1E033881D32EA2 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0E427D6E46ADB4150F1CE5FB4FAF8D /* NSString+FontAwesome.m */; };
+		80240169677EC9EFC29403306D61C443 /* UIColor+BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 634381FBC7BEFCDA7D7E0136EDD80156 /* UIColor+BButton.m */; };
+		8843BCA26FE05B480022DAB8E14A9F98 /* Pods-GroceryListApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB0E77C5263613BDE880748689301EC /* Pods-GroceryListApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D00B75CB5E6924D2A7A01344F5BFA633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */; };
+		DD21FCB7BDE0F2B4D6FEADB7E1FFAA2A /* BButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E45BC69D2BC013DF8DAA18C9B8868D /* BButton.m */; };
+		FBC47054CC19D64564C33C02E3B0829D /* BButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D0C33D459B470E1CEA87EA056E9926 /* BButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B25EF2655A5A7359785BA7B01F431703 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8167FC80FB75998FEB9BCF29455230B;
+			remoteInfo = BButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		123D181CA52B5191083FCEFFF04C4F92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B783CCACE0A267D91FFD51D2BC0DEF /* Pods-GroceryListApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GroceryListApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		34ABBF8AEFCB369BEDEA9C21E44D6792 /* UIColor+BButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BButton.h"; path = "BButton/Classes/UIColor+BButton.h"; sourceTree = "<group>"; };
+		4993D044F29FF920FD3F3DA2B55233CA /* BButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BButton.framework; path = BButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8FAD1F6B4529E15B70FB7574796292 /* NSString+FontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FontAwesome.h"; path = "BButton/Classes/NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		5D012C596062A4DDFF66272BA3F2853B /* Pods-GroceryListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryListApp.release.xcconfig"; sourceTree = "<group>"; };
+		634381FBC7BEFCDA7D7E0136EDD80156 /* UIColor+BButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BButton.m"; path = "BButton/Classes/UIColor+BButton.m"; sourceTree = "<group>"; };
+		65ADCEE5E66E0ECF11DB8A14EE459EBB /* BButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BButton.modulemap; sourceTree = "<group>"; };
+		68D0C33D459B470E1CEA87EA056E9926 /* BButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BButton-umbrella.h"; sourceTree = "<group>"; };
+		6B1C78DED976BC78F518EF151FB0EBB9 /* Pods-GroceryListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GroceryListApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6BFD5C695BCAF777D426F7E21F512946 /* BButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BButton.h; path = BButton/Classes/BButton.h; sourceTree = "<group>"; };
+		6EF584E572A771EEB4433336A1E1E5D1 /* BButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BButton-dummy.m"; sourceTree = "<group>"; };
+		78C5265AFC22CB9E5540C6DCBC0596B8 /* Pods_GroceryListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GroceryListApp.framework; path = "Pods-GroceryListApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7A0EE67FB790CB5D083DC392965BE6 /* BButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BButton.xcconfig; sourceTree = "<group>"; };
+		7DF3BC20AE0630A0A8E24E7A317EFE6D /* Pods-GroceryListApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GroceryListApp-dummy.m"; sourceTree = "<group>"; };
+		8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		89A0A6190B8230F9C9BBC98E8721DDEA /* BButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BButton-prefix.pch"; sourceTree = "<group>"; };
+		8C24CBEBAF9646B385170B083E620FDD /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.ttf; path = BButton/resources/FontAwesome.ttf; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		988C3E421634C4CDA2F5D66E475A847F /* Pods-GroceryListApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryListApp-frameworks.sh"; sourceTree = "<group>"; };
+		9E6FFABFFB207552546C30AEBC045311 /* Pods-GroceryListApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GroceryListApp-resources.sh"; sourceTree = "<group>"; };
+		AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5B31675B63BFD724C07D266BF001455 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E45BC69D2BC013DF8DAA18C9B8868D /* BButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BButton.m; path = BButton/Classes/BButton.m; sourceTree = "<group>"; };
+		E5C2A2FE4655C4EAE22E6EE87A854356 /* Pods-GroceryListApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GroceryListApp.modulemap"; sourceTree = "<group>"; };
+		F7BAD2C32263BF81956EE13E56B1AED8 /* Pods-GroceryListApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GroceryListApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB0E427D6E46ADB4150F1CE5FB4FAF8D /* NSString+FontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FontAwesome.m"; path = "BButton/Classes/NSString+FontAwesome.m"; sourceTree = "<group>"; };
+		FFB0E77C5263613BDE880748689301EC /* Pods-GroceryListApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GroceryListApp-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F777CB00ABF5D599AE5D13ACB24D083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C50A6F3327CE99B75A82FA489492DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D3BF05C408685E28096D7A4C6F0BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D95E10330F315A961F6DB906A3A9C9A /* CoreGraphics.framework in Frameworks */,
+				D00B75CB5E6924D2A7A01344F5BFA633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13268525F6FAF045DA6C056F12A585A3 /* Pods-GroceryListApp */ = {
+			isa = PBXGroup;
+			children = (
+				123D181CA52B5191083FCEFFF04C4F92 /* Info.plist */,
+				E5C2A2FE4655C4EAE22E6EE87A854356 /* Pods-GroceryListApp.modulemap */,
+				F7BAD2C32263BF81956EE13E56B1AED8 /* Pods-GroceryListApp-acknowledgements.markdown */,
+				31B783CCACE0A267D91FFD51D2BC0DEF /* Pods-GroceryListApp-acknowledgements.plist */,
+				7DF3BC20AE0630A0A8E24E7A317EFE6D /* Pods-GroceryListApp-dummy.m */,
+				988C3E421634C4CDA2F5D66E475A847F /* Pods-GroceryListApp-frameworks.sh */,
+				9E6FFABFFB207552546C30AEBC045311 /* Pods-GroceryListApp-resources.sh */,
+				FFB0E77C5263613BDE880748689301EC /* Pods-GroceryListApp-umbrella.h */,
+				6B1C78DED976BC78F518EF151FB0EBB9 /* Pods-GroceryListApp.debug.xcconfig */,
+				5D012C596062A4DDFF66272BA3F2853B /* Pods-GroceryListApp.release.xcconfig */,
+			);
+			name = "Pods-GroceryListApp";
+			path = "Target Support Files/Pods-GroceryListApp";
+			sourceTree = "<group>";
+		};
+		399E6103D0DF21CE3345EADF8D276DF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13268525F6FAF045DA6C056F12A585A3 /* Pods-GroceryListApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93AA53D048424A67CC426E3C9422A44 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		439E81AA608AE8A964E9074401786BBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65ADCEE5E66E0ECF11DB8A14EE459EBB /* BButton.modulemap */,
+				7A7A0EE67FB790CB5D083DC392965BE6 /* BButton.xcconfig */,
+				6EF584E572A771EEB4433336A1E1E5D1 /* BButton-dummy.m */,
+				89A0A6190B8230F9C9BBC98E8721DDEA /* BButton-prefix.pch */,
+				68D0C33D459B470E1CEA87EA056E9926 /* BButton-umbrella.h */,
+				B5B31675B63BFD724C07D266BF001455 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BButton";
+			sourceTree = "<group>";
+		};
+		6F8F814FB0B8801E443E458785539A60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA39509D5E69B231A790016A97A125E5 /* BButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				6F8F814FB0B8801E443E458785539A60 /* Pods */,
+				E8FE2FF04D4829ADA3640FBCCFAB57C9 /* Products */,
+				399E6103D0DF21CE3345EADF8D276DF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF693C238F31BE16D1235247BD0AA41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C24CBEBAF9646B385170B083E620FDD /* FontAwesome.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C93AA53D048424A67CC426E3C9422A44 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8621F66D446C6F4AC0D7F817144EB150 /* CoreGraphics.framework */,
+				AC7524F0BE53ABC149C4387DFEFE2B51 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA39509D5E69B231A790016A97A125E5 /* BButton */ = {
+			isa = PBXGroup;
+			children = (
+				6BFD5C695BCAF777D426F7E21F512946 /* BButton.h */,
+				D6E45BC69D2BC013DF8DAA18C9B8868D /* BButton.m */,
+				4C8FAD1F6B4529E15B70FB7574796292 /* NSString+FontAwesome.h */,
+				FB0E427D6E46ADB4150F1CE5FB4FAF8D /* NSString+FontAwesome.m */,
+				34ABBF8AEFCB369BEDEA9C21E44D6792 /* UIColor+BButton.h */,
+				634381FBC7BEFCDA7D7E0136EDD80156 /* UIColor+BButton.m */,
+				7FF693C238F31BE16D1235247BD0AA41 /* Resources */,
+				439E81AA608AE8A964E9074401786BBF /* Support Files */,
+			);
+			name = BButton;
+			path = BButton;
+			sourceTree = "<group>";
+		};
+		E8FE2FF04D4829ADA3640FBCCFAB57C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4993D044F29FF920FD3F3DA2B55233CA /* BButton.framework */,
+				78C5265AFC22CB9E5540C6DCBC0596B8 /* Pods_GroceryListApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B2D39ACD0BB0F64CC811D668367F86FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC47054CC19D64564C33C02E3B0829D /* BButton-umbrella.h in Headers */,
+				2ED39714647F56C8CE3E82BB351DABF1 /* BButton.h in Headers */,
+				0CBA0E1FD4A3A0FEC309237AFB42FF3E /* NSString+FontAwesome.h in Headers */,
+				4A1C5AAA4AEBB273B4B698D1AA24006E /* UIColor+BButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8EC13A5CC644BC21833D115FD3ECAD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8843BCA26FE05B480022DAB8E14A9F98 /* Pods-GroceryListApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96FC642283014917595B0927FA88FFC1 /* Pods-GroceryListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7473E085DC6F0EC4928619C9AC2849C /* Build configuration list for PBXNativeTarget "Pods-GroceryListApp" */;
+			buildPhases = (
+				26AAD2263269E26C40AB81A129506144 /* Sources */,
+				4F777CB00ABF5D599AE5D13ACB24D083 /* Frameworks */,
+				E8EC13A5CC644BC21833D115FD3ECAD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7261BBB4AA87D63A1868B94249F2F35A /* PBXTargetDependency */,
+			);
+			name = "Pods-GroceryListApp";
+			productName = "Pods-GroceryListApp";
+			productReference = 78C5265AFC22CB9E5540C6DCBC0596B8 /* Pods_GroceryListApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8167FC80FB75998FEB9BCF29455230B /* BButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A89A91E59196566EE42A1F0F9D6A948 /* Build configuration list for PBXNativeTarget "BButton" */;
+			buildPhases = (
+				B743A11004FC5B2C047FD875CED2C9FB /* Sources */,
+				834D3BF05C408685E28096D7A4C6F0BB /* Frameworks */,
+				B2D39ACD0BB0F64CC811D668367F86FE /* Headers */,
+				EA1A00225A78866BED1DDE1357262322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BButton;
+			productName = BButton;
+			productReference = 4993D044F29FF920FD3F3DA2B55233CA /* BButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E8FE2FF04D4829ADA3640FBCCFAB57C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8167FC80FB75998FEB9BCF29455230B /* BButton */,
+				96FC642283014917595B0927FA88FFC1 /* Pods-GroceryListApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA1A00225A78866BED1DDE1357262322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417D97E48334961E2389345A04DC100 /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26AAD2263269E26C40AB81A129506144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8F5AB011EE9BC9CB64592AF7D642D2 /* Pods-GroceryListApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B743A11004FC5B2C047FD875CED2C9FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E92009BC396C8D35B0E8C4EF7C3809 /* BButton-dummy.m in Sources */,
+				DD21FCB7BDE0F2B4D6FEADB7E1FFAA2A /* BButton.m in Sources */,
+				7E53179C4744653A4D1E033881D32EA2 /* NSString+FontAwesome.m in Sources */,
+				80240169677EC9EFC29403306D61C443 /* UIColor+BButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7261BBB4AA87D63A1868B94249F2F35A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BButton;
+			target = D8167FC80FB75998FEB9BCF29455230B /* BButton */;
+			targetProxy = B25EF2655A5A7359785BA7B01F431703 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B12B3CF69E47F41976E32C331B24060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7A0EE67FB790CB5D083DC392965BE6 /* BButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BButton/BButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BButton/BButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7CFB23A728917A80034AB0D7CAB18FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7A0EE67FB790CB5D083DC392965BE6 /* BButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BButton/BButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BButton/BButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89E81F8895D5E96B0BA7BC170E394113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1C78DED976BC78F518EF151FB0EBB9 /* Pods-GroceryListApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryListApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryListApp/Pods-GroceryListApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroceryListApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA95069397B7CA4D1362ECFDE545DABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D012C596062A4DDFF66272BA3F2853B /* Pods-GroceryListApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GroceryListApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GroceryListApp/Pods-GroceryListApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GroceryListApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A89A91E59196566EE42A1F0F9D6A948 /* Build configuration list for PBXNativeTarget "BButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B12B3CF69E47F41976E32C331B24060 /* Debug */,
+				7CFB23A728917A80034AB0D7CAB18FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7473E085DC6F0EC4928619C9AC2849C /* Build configuration list for PBXNativeTarget "Pods-GroceryListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E81F8895D5E96B0BA7BC170E394113 /* Debug */,
+				AA95069397B7CA4D1362ECFDE545DABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
