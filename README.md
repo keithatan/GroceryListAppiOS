@@ -16,4 +16,5 @@ iOS Application for keeping track of groceries
 
 ## Screenshots
 
-* Coming soon
+[img1]:https://raw.github.com/keithatan/GroceryListAppiOS/master/images/img1.png
+[img2]:https://raw.github.com/keithatan/GroceryListAppiOS/master/images/img2.png
