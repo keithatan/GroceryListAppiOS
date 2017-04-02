@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  GroceryListApp
 //
-//  Created by Brandon Sung on 4/1/17.
-//  Copyright © 2017 KeithATan. All rights reserved.
+//  Created by Keith Alexander Tan on 4/1/17.
+//  Copyright © 2017 Keith A Tan. All rights reserved.
 //
 
 import UIKit

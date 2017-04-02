@@ -38,13 +38,16 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="qFa-rp-Mc9"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <state key="normal" title="Begin"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="type">
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="HxS-iu-irt" kind="show" identifier="startSegue" id="kfY-Q6-bOx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -70,6 +73,85 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="31.884057971014496" y="53.804347826086961"/>
+        </scene>
+        <!--Grocery List View Controller-->
+        <scene sceneID="lAO-Yo-jGx">
+            <objects>
+                <viewController id="HxS-iu-irt" customClass="GroceryListViewController" customModule="GroceryListApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qa0-hg-ey7"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Lk-jQ-Fiw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Bm-0U-2Gk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YKn-NC-ld2">
+                                <rect key="frame" x="20" y="57" width="314" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="nd4-na-WKv"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLV-XD-7C7" customClass="BButton">
+                                <rect key="frame" x="342" y="57" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="F5o-Kc-UFs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                                <state key="normal" title="+"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="type">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addToList:" destination="HxS-iu-irt" eventType="touchUpInside" id="MIE-8m-nFl"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8YI-wW-wDq">
+                                <rect key="frame" x="0.0" y="95" width="414" height="641"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="grocery" id="U85-FY-a67">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U85-FY-a67" id="hcn-UK-Cic">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="HxS-iu-irt" id="xh5-wj-5Ai"/>
+                                    <outlet property="delegate" destination="HxS-iu-irt" id="POS-u2-5di"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YKn-NC-ld2" secondAttribute="trailing" constant="60" id="38q-eF-vQx"/>
+                            <constraint firstItem="YKn-NC-ld2" firstAttribute="top" secondItem="Qa0-hg-ey7" secondAttribute="bottom" constant="37" id="44z-Ep-Gct"/>
+                            <constraint firstItem="CLV-XD-7C7" firstAttribute="top" secondItem="Qa0-hg-ey7" secondAttribute="bottom" constant="37" id="9Vh-kQ-m2f"/>
+                            <constraint firstItem="8YI-wW-wDq" firstAttribute="top" secondItem="CLV-XD-7C7" secondAttribute="bottom" constant="8" id="LKO-zC-0IT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CLV-XD-7C7" secondAttribute="trailing" constant="6" id="aZJ-ud-dMr"/>
+                            <constraint firstItem="1Lk-jQ-Fiw" firstAttribute="top" secondItem="8YI-wW-wDq" secondAttribute="bottom" id="eJy-MH-5MO"/>
+                            <constraint firstItem="CLV-XD-7C7" firstAttribute="leading" secondItem="YKn-NC-ld2" secondAttribute="trailing" constant="8" id="ien-lP-SYZ"/>
+                            <constraint firstItem="8YI-wW-wDq" firstAttribute="leading" secondItem="3Bm-0U-2Gk" secondAttribute="leading" id="tWd-fn-ub1"/>
+                            <constraint firstAttribute="trailing" secondItem="8YI-wW-wDq" secondAttribute="trailing" id="tZh-pv-uwh"/>
+                            <constraint firstItem="YKn-NC-ld2" firstAttribute="leading" secondItem="3Bm-0U-2Gk" secondAttribute="leadingMargin" id="wSY-7U-sub"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="groceryInputField" destination="YKn-NC-ld2" id="31V-ew-cee"/>
+                        <outlet property="groceryTable" destination="8YI-wW-wDq" id="T8j-9V-fqR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ono-dP-1IO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905.79710144927549" y="53.804347826086961"/>
         </scene>
     </scenes>
     <resources>
