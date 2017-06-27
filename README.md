@@ -3,6 +3,7 @@ iOS Application for keeping track of groceries
 
 ## Features
 
+* Created using Swift 3
 * Animated Welcome view
 * Adds groceries to list (main functionality)
 * Deletes groceries from the list upon tapping on the designated cell
